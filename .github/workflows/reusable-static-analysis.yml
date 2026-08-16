@@ -1,0 +1,36 @@
+name: reusable / static analysis
+
+on:
+  workflow_call:
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+
+  code-analysis:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+
+      matrix:
+        # Ruff's lint/format targets come from requires-python in
+        # pyproject.toml, not this interpreter version.
+        python-version: ["3.13"]
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v7
+      with:
+        enable-cache: true
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: uv sync --only-group dev
+
+    - name: Analysing the code with ruff
+      run: uv run --no-sync ruff check .
+
+    - name: Checking formatting with ruff
+      run: uv run --no-sync ruff format --check .
