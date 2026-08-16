@@ -1,6 +1,6 @@
 [project]
 name = "locator-creator"
-version = "0.0.0"
+version = "2.3.4"
 description = "This is a test repo for maya-python-project-template"
 requires-python = ">=3.10"
 dependencies = ["Qt.py"]
