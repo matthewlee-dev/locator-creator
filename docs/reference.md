@@ -1,3 +1,3 @@
 # Reference
 
-::: mayapythonprojecttemplate.example
+::: locatorcreator.example

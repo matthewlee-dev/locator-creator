@@ -1,87 +1,192 @@
 <a id="readme-top"></a>
 
+<!-- PROJECT SHIELDS -->
 <div align="center">
+
+[![CI](https://github.com/matthewlee-dev/locator-creator/actions/workflows/ci-main.yml/badge.svg)](https://github.com/matthewlee-dev/locator-creator/actions/workflows/ci-main.yml)
+[![pytest][pytest-shield]][pytest-url]
+[![Managed with uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 
 <!-- PROJECT LOGO -->
 <br />
-  <a href="https://github.com/matthewlee-dev/maya-python-project-template">
+  <a href="https://github.com/matthewlee-dev/locator-creator">
     <img src="docs/resources/images/maya_python_logo.png" alt="MayaPythonLogo" width="175" height="175">
   </a>
 
-[![CI](https://github.com/matthewlee-dev/maya-python-project-template/actions/workflows/template-ci.yml/badge.svg)](https://github.com/matthewlee-dev/maya-python-project-template/actions/workflows/template-ci.yml)
-[![Managed with uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Python][python_3-shield]][python-url]
-[![Maya][maya-shield]][maya-url]
-[![GitHub Actions][github-actions-shield]][github-actions-url]
+[![Maya][maya-2024-2027-shield]][maya-2027-url]
+[![Maya][maya-cmds-shield]][maya-cmds-url]
 
-<h3 align="center">Maya Python Project Template</h3>
-
+<h3 align="center">Locator Creator</h3>
+  This is a test repo for maya-python-project-template
+  <br />
   <p align="center">
-    A GitHub template for Maya Python tools<br>
-    <a href="https://github.com/matthewlee-dev/maya-python-project-template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://matthewlee-dev.github.io/locator-creator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/matthewlee-dev/locator-creator">View Demo</a>
     ·
-    <a href="https://github.com/matthewlee-dev/maya-python-project-template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/matthewlee-dev/locator-creator/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/matthewlee-dev/locator-creator/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
-## Why this template exists
-Maya Python projects often start as a small collection of scripts and grow into production tools without the development infrastructure growing with them.
 
-This template provides a modern, reproducible foundation for that infrastructure from the outset, so a tool can go from initial development to reliable distribution. The goal isn't to prescribe how a Maya tool should be written, just to remove the repetitive setup work around it.
 
-## How to use this template
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### Do not fork. Use the [Use this template][use-template-link] button instead.
 
-1. Click [Use this template][use-template-link].
-2. Name the new project (lowercase, hyphen-separated, e.g. `my-awesome-project`) and add a description.
-3. GitHub Actions processes the template and commits to the new repo. Check progress in the Actions tab.
-4. Wait for the first CI run to finish, then clone and start coding.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### CLI / agent quickstart
+Please replace this text with a description of the project.
 
-No browser needed:
+<div align="center">
 
-```sh
-gh repo create my-cool-tool --template matthewlee-dev/maya-python-project-template --public
-```
+[![Product Name Screen Shot][product-screenshot]][project-link]
 
-Wait for the `initial repository setup` workflow to finish before cloning. See [AGENTS.md](AGENTS.md) for the full non-interactive flow.
+</div>
+    
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## What is included in this template?
-* Basic project structure.
-* Dependency and packaging management with [uv](https://docs.astral.sh/uv/), configured via `pyproject.toml`.
-* [README.md](_new_project/README.md) and [CONTRIBUTING.md](_new_project/CONTRIBUTING.md) templates.
-* Bug report and feature request templates.
-* Continuous integration using [GitHub Actions][github-actions-url] with jobs to:
-  * [Run integration tests](.github/workflows/reusable-maya-tests.yml) across a range of Maya versions in isolated Docker containers. 
-    * `Note: You should hold a valid Maya license.`
-  * [Enforce coding standards](.github/workflows/reusable-static-analysis.yml) with [ruff](https://github.com/astral-sh/ruff).
-  * [Build and deploy documentation](.github/workflows/reusable-build-and-deploy-docs.yml) to GitHub pages with [mkdocs](https://www.mkdocs.org/).
-  * [Manually triggered releases](.github/workflows/ci-release.yml): pick a version number and it tags, releases, and deploys docs (optional). The release also builds an installable Maya module zip (`.mod` + `<name>_drag_and_drop_installer.py`) and attaches it to the GitHub Release.
+
+<!-- GETTING STARTED -->
+## Getting Started
+Please replace this text with a guide to getting started with this project.
+
+Development and contribution guidelines can be found on the [contributing](CONTRIBUTING.md) page.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Prerequisites
+Please replace this text with a list of pre-requisites for the project.
+
+* Maya
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Installation
+
+1. Clone the repo, or download and extract the zip from the [project page][project-link].
+    ```sh
+    git clone https://github.com/matthewlee-dev/locator-creator.git  
+    ```
+2. Installation instructions go here.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+### Usage
+
+Use this space to show useful examples of how the project can be used.
+
+_For more examples, please refer to the [Documentation](https://matthewlee-dev.github.io/locator-creator)._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+- [ ] Feature: foo
+  - [ ] Feature: bar
+  - [ ] Feature: baz
+
+See the [open issues](https://github.com/matthewlee-dev/locator-creator/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contributing
+If you have a suggestion that would make this better, please open an issue from the [request a feature](https://github.com/matthewlee-dev/locator-creator/issues/new?labels=enhancement&template=feature-request---.md) or [report a bug](https://github.com/matthewlee-dev/locator-creator/issues/new?labels=bug&template=bug-report---.md) pages.
+
+Development and contribution guidelines can be found on the [CONTRIBUTING.md](CONTRIBUTING.md) page
+
+<!-- LICENSE -->
+## License
+
+Distributed under the `insert_license_name` license. See `LICENSE` file for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Please reach out via the [request a feature](https://github.com/matthewlee-dev/locator-creator/issues/new?labels=enhancement&template=feature-request---.md) or [report a bug](https://github.com/matthewlee-dev/locator-creator/issues/new?labels=bug&template=bug-report---.md) pages.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-* This project uses Docker images courtesy of [mottosso/docker-maya](https://github.com/mottosso/docker-maya).
-* Inspiration taken from both:
-  * [python-project-template](https://github.com/rochacbruno/python-project-template/tree/main).
-  * [Best-README-Template](https://github.com/othneildrew/Best-README-Template).
+* Project template by [matthewlee-dev](https://deform.dev).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+<!-- EDIT-ME: add product screenshot -->
+[product-screenshot]: docs/resources/images/screenshot.png
+[project-link]: https://github.com/matthewlee-dev/locator-creator
+
+
 <!-- Python -->
 [python_3-shield]: https://img.shields.io/badge/Python-3.X-grey?logo=python&logoColor=ffdd54&labelColor=%233670A0
 [python-url]: https://python.org/
-[github-actions-shield]: https://img.shields.io/badge/GitHub%20Actions-%232671E5?logo=githubactions&logoColor=white
-[github-actions-url]: https://github.com/features/actions
+[pytest-shield]: https://img.shields.io/badge/tests-pytest-%230A9EDC
+[pytest-url]: https://docs.pytest.org/
 
-<!-- Maya -->
-[maya-shield]: https://img.shields.io/badge/Autodesk-Maya-%2337A5CC?logo=autodeskmaya&logoColor=%2337A5CC
+<!-- Maya: swap the header badges for the variants your tool targets -->
+[maya-2024-shield]: https://img.shields.io/badge/Maya-2024-%2337A5CC?logo=autodeskmaya&logoColor=%2337A5CC
+[maya-2024-url]: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+[maya-2025-shield]: https://img.shields.io/badge/Maya-2025-%2337A5CC?logo=autodeskmaya&logoColor=%2337A5CC
+[maya-2025-url]: https://help.autodesk.com/view/MAYAUL/2025/ENU/
+[maya-2026-shield]: https://img.shields.io/badge/Maya-2026-%2337A5CC?logo=autodeskmaya&logoColor=%2337A5CC
+[maya-2026-url]: https://help.autodesk.com/view/MAYAUL/2026/ENU/
+[maya-2027-shield]: https://img.shields.io/badge/Maya-2027-%2337A5CC?logo=autodeskmaya&logoColor=%2337A5CC
+[maya-2027-url]: https://help.autodesk.com/view/MAYAUL/2027/ENU/
+[maya-2024-2027-shield]: https://img.shields.io/badge/Maya-2024_--_2027-%2337A5CC?logo=autodeskmaya&logoColor=%2337A5CC
+[maya-cmds-shield]: https://img.shields.io/badge/Maya-cmds-%2337A5CC?logo=autodeskmaya
+[maya-cmds-url]: https://help.autodesk.com/cloudhelp/2027/ENU/Maya-Tech-Docs/CommandsPython/
+[maya-openmaya-shield]: https://img.shields.io/badge/Maya-OpenMaya-%2337A5CC?logo=autodeskmaya
+[maya-openmaya-url]: https://help.autodesk.com/view/MAYADEV/2027/ENU/?guid=Maya_DEVHELP_Maya_Python_API_Maya_Python_API_1_0_Using_the_Maya_Python_API_html
+[maya-api-openmaya-shield]: https://img.shields.io/badge/Maya-api.OpenMaya-%2337A5CC?logo=autodeskmaya
+[maya-api-openmaya-url]: https://help.autodesk.com/cloudhelp/2027/ENU/MAYA-API-REF/py_ref/
 [maya-url]: https://www.autodesk.com/nz/products/maya/overview
-
-<!-- template links -->
-[use-template-link]: https://github.com/matthewlee-dev/maya-python-project-template/generate

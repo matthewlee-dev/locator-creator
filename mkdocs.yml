@@ -1,6 +1,6 @@
-site_name: Maya Python Project Template
-repo_url: https://github.com/matthewlee-dev/maya-python-project-template
-repo_name: matthewlee-dev/maya-python-project-template
+site_name: Locator Creator
+repo_url: https://github.com/matthewlee-dev/locator-creator
+repo_name: matthewlee-dev/locator-creator
 theme:
   name: material
   language: en
@@ -29,11 +29,4 @@ watch:
 
 nav:
   - index.md
-  - getting-started.md
-  - project-layout.md
-  - writing-your-tool.md
-  - testing.md
-  - ci.md
-  - releasing.md
-  - documentation.md
   - reference.md
