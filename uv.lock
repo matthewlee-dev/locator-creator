@@ -212,6 +212,9 @@ wheels = [
 name = "locator-creator"
 version = "0.0.0"
 source = { editable = "." }
+dependencies = [
+    { name = "qt-py" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -228,6 +231,7 @@ test = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "qt-py" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -647,6 +651,18 @@ wheels = [
 ]
 
 [[package]]
+name = "qt-py"
+version = "2.0.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "types-pyside6" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5b/a4/08498c869bc529660b25fb523daa9244a639de5d09e6e0aa8e2921ee8bd5/qt_py-2.0.5.tar.gz", hash = "sha256:aa5bc8cb0a11bc7b7babcb8e75dfc0ed1a1d84a56e951cd5584ee7a6591a348d", size = 65869, upload-time = "2026-06-03T00:53:58.125Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1a/6f/75c055ef70b8a65a9bae18573a2ed4f33dd89e34daf3a916f7fd05aeb95f/qt_py-2.0.5-py3-none-any.whl", hash = "sha256:c5b6255493a9c47e94527b07d8f58cdaa7764a7f4f9af88d7d020f673da747cc", size = 46949, upload-time = "2026-06-03T00:53:56.56Z" },
+]
+
+[[package]]
 name = "requests"
 version = "2.34.2"
 source = { registry = "https://pypi.org/simple" }
@@ -747,6 +763,14 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/12/64/da524626d3b9cc40c168a13da8335fe1c51be12c0a63685cc6db7308daae/tomli-2.4.1-cp314-cp314t-win_amd64.whl", hash = "sha256:2c1c351919aca02858f740c6d33adea0c5deea37f9ecca1cc1ef9e884a619d26", size = 121196, upload-time = "2026-03-25T20:22:01.169Z" },
     { url = "https://files.pythonhosted.org/packages/5a/cd/e80b62269fc78fc36c9af5a6b89c835baa8af28ff5ad28c7028d60860320/tomli-2.4.1-cp314-cp314t-win_arm64.whl", hash = "sha256:eab21f45c7f66c13f2a9e0e1535309cee140182a9cdae1e041d02e47291e8396", size = 100393, upload-time = "2026-03-25T20:22:02.137Z" },
     { url = "https://files.pythonhosted.org/packages/7b/61/cceae43728b7de99d9b847560c262873a1f6c98202171fd5ed62640b494b/tomli-2.4.1-py3-none-any.whl", hash = "sha256:0d85819802132122da43cb86656f8d1f8c6587d54ae7dcaf30e90533028b49fe", size = 14583, upload-time = "2026-03-25T20:22:03.012Z" },
+]
+
+[[package]]
+name = "types-pyside6"
+version = "6.10.3.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/49/a2/d4df95667ad290249bfb45f8082c7e4d5b46b8f3f01aa94a7420b9974116/types_pyside6-6.10.3.0-py2.py3-none-any.whl", hash = "sha256:abb3360637b1980c0d8b456c9b3f3031e0d0dd146df03b677e17a577e9892b8e", size = 609993, upload-time = "2026-08-13T19:25:32.565Z" },
 ]
 
 [[package]]

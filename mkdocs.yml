@@ -4,10 +4,8 @@ repo_name: matthewlee-dev/locator-creator
 theme:
   name: material
   language: en
-  # Setup swaps this file for the generated project's logo, so the path holds
-  # for both.
-  logo: resources/images/maya_python_logo.png
-  favicon: resources/images/maya_python_logo.png
+  logo: resources/images/locator.png
+  favicon: resources/images/locator.png
   palette:
     - scheme: slate
       primary: black
