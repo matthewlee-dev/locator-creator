@@ -235,3 +235,6 @@ fabric.properties
 
 # JetBrains IDE
 .idea/
+
+# macOS
+.DS_Store
